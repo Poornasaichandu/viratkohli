@@ -8,7 +8,7 @@ pipeline
             steps
             {
                 sh 'touch abc.txt'
-                sh 'echo $JENKINS'
+                sh 'echo $JENKINSFILE'
             }
         }
     }
